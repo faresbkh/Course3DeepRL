@@ -44,7 +44,8 @@ The observation space consists of 33 variables corresponding to position, rotati
     *   Close the environment ( this will close the unity window )
 *   The base implementation is based on `deep-reinforcement-learning` [implementation](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-pendulum) of ddpg 
 *   This repo contains these files :
-    - `cgeckpoint.pth`: saved model weights for the Double DQN model
+    - `checkpoint_actor_20_agents.pth`: saved model weights for the Actor model
+    - `checkpoint_critic_20_agents.pth`: saved model weights for the Critic model
     - `Continuous_Control_solution.ipynb`: notebook containing the solution
     - `scores_plot.png`: score evolution during training of the model
 *   To run the project the dependencies required are in the `requirements.txt` file with instructions how to create conda environment, One major difference is the Torch version as the oldest available version of torch in python 3.6 currently is 1.7.0 which is different from the recommended version. Also torch gpu version is installed.
